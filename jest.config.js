@@ -1,4 +1,6 @@
 module.exports = {
-  preset: 'react-native',
-  testEnvironment: 'jsdom',
+  preset: 'jest-expo',
+  transform: { '^.+\\.tsx?$': 'ts-jest' },
+  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  testPathIgnorePatterns: ['/e2e/'],
 };

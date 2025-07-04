@@ -13,10 +13,18 @@ This project is a React Native application built with Expo and Firebase. It prov
    ```sh
    yarn install
    ```
-3. Run the app in development mode:
+3. Run unit tests:
+   ```sh
+   yarn test
+   ```
+4. Run the app in development mode:
    ```sh
    expo start
    ```
 
 ## Running locally
 To run the app on a simulator or device, ensure Expo CLI is installed and run `expo start` from the project root.
+
+## Next Steps
+- **Sprint 2**: implement live streaming and FCM topic subscription.
+- **Sprint 3**: build events calendar and polish i18n/RTL support.

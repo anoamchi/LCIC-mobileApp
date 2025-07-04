@@ -1,7 +1,7 @@
 export interface PrayerTime {
   prayer: string;
-  adhan: string;
-  iqamah: string;
+  adhan: Date;
+  iqamah: Date;
 }
 
 export type PrayerTimes = PrayerTime[];
